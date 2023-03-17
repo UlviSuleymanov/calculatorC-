@@ -1,25 +1,20 @@
 #include <iostream>
-
-int Calculate(int x, int y) {
-    int result = x + y;
+//bu bir kommentdir
+/*bu multiple bir kommentdir*/
+namespace first {
+    int a = 10;
+}
+//calculate prosesi gedir cevrenin parametiri tapilir
+double calculate(double radius) {
+    const double PI = 3.14;
+    double result = 2 * PI * radius;
     return result;
 }
 
-namespace first {
-    int x = 0;
-}
-namespace second {
-    int x = 1;
-}
-
 int main() {
-    using std::string;
     using std::cout;
-    string name = "Ulvi";
-    string day = "Friday";
-    int x = 5;
-    cout << "Hello " << name << std::endl;
-    cout << "Today is good day, because it's " << day << std::endl;
-    cout << x << std::endl;
+    float c = 5.5f;
+    char b = 'c';
+    cout << c << std::endl;
     return 0;
 }
