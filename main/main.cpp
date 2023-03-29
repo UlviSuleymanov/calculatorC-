@@ -3,7 +3,10 @@
 
 using std::cout, std::cin, std::endl;
 
-int main() {
 
-  calculate();
+int main() {
+    while (true) {
+        calculate();
+    }
+
 }
